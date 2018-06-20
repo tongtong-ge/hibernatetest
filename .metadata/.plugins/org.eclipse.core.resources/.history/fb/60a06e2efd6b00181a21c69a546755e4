@@ -1,0 +1,13 @@
+package com.tongtong.hibernate.repository;
+
+import java.io.Serializable;
+
+import java.util.List;
+
+public interface PersonRepository<T, PK extends Serializable> {
+	T load(PK id);
+	
+	T get(PK id);
+	
+	List<T> findAll();
+}

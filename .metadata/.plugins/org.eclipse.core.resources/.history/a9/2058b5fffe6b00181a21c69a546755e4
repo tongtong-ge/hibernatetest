@@ -1,0 +1,7 @@
+package com.tongtong.hibernate.repository;
+
+import java.io.Serializable;
+
+public interface PersonRepository<T, PK extends Serializable> {
+	
+}

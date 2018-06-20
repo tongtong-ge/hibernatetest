@@ -1,0 +1,5 @@
+package com.tongtong.hibernate.repository.impl;
+
+public class PersonRepositoryImpl {
+
+}

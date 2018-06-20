@@ -1,0 +1,7 @@
+package com.tongtong.hibernate.service;
+
+import com.tongtong.hibernate.entity.Person;
+
+public interface PersonService {
+	Long savePerson();
+}

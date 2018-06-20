@@ -1,0 +1,13 @@
+package com.tongtong.hibernate.service.impl;
+
+import com.tongtong.hibernate.service.PersonService;
+
+public class PersonServiceImpl implements PersonService {
+
+	@Override
+	public Long savePerson() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

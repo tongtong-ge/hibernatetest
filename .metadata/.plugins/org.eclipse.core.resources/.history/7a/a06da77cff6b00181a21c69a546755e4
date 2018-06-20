@@ -1,0 +1,18 @@
+package com.tongtong.hibernate.repository.impl;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import com.tongtong.hibernate.repository.PersonRepository;
+
+@Repository
+public class PersonRepositoryImpl implements PersonRepository {
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	private Session getCurrrSession(){
+		return this.sessionFactory.openSession();
+	}
+}
